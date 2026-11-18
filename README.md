@@ -1,9 +1,10 @@
 # homebrew-pact
 
-Homebrew tap for [pact](https://github.com/zekariasasaminew/pact) -- a
-CLI that orchestrates multiple AI coding agent CLIs (Claude Code, GitHub
-Copilot CLI, Codex, Gemini CLI) running in parallel on the same repo, via
-git worktrees, shared dependency caching, and an MCP coordination server.
+Homebrew tap for [pact](https://github.com/zekariasasaminew/pact), a CLI
+that runs several AI coding agent CLIs (GitHub Copilot CLI, Claude Code,
+Codex, Gemini CLI, Antigravity) in parallel on one repository: `pact run`
+splits one task into units that own disjoint files, runs them as parallel
+lanes, and verifies the combined result.
 
 ## Install
 
